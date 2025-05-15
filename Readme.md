@@ -7,12 +7,12 @@ A Java-based web service built with Spring Boot to process receipts and calculat
 
 Data is stored in memory (no persistence) and the application is Dockerized for easy setup.
 
-##Prerequisites
+## Prerequisites
 1. Docker
 2. Maven(Optional if you are running it in docker)
 3. Java(Optional if you are running it in docker)
 
-##Steps
+## Steps
 1. git clone https://github.com/Himavanthkumar/Fetch_Recipt_Processor.git
 2. cd receipt-processor
 3. mvn clean package
