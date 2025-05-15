@@ -16,9 +16,9 @@ Data is stored in memory (no persistence) and the application is Dockerized for 
 1. git clone https://github.com/Himavanthkumar/Fetch_Recipt_Processor.git
 2. cd receipt-processor
 3. mvn clean package
-This step generates a package in /target folder check for target/receipt_processor-0.0.1-SNAPSHOT.jar or something similar
+- This step generates a package in /target folder check for target/receipt_processor-0.0.1-SNAPSHOT.jar or something similar
 4. docker build -t receipt-processor .
-Before step 4 make sure you run step 3
+- Before step 4 make sure you run step 3
 5.docker run -p 8080:8080 receipt-processor
 
 The service will be available at http://localhost:8080 .
