@@ -19,6 +19,7 @@ Data is stored in memory (no persistence) and the application is Dockerized for 
 - This step generates a package in /target folder check for target/receipt_processor-0.0.1-SNAPSHOT.jar or something similar
 4. docker build -t receipt-processor .
 - Before step 4 make sure you run step 3
+
 5.docker run -p 8080:8080 receipt-processor
 
 The service will be available at http://localhost:8080 .
